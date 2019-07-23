@@ -11,7 +11,7 @@ const App = () => {
           <img id="logo" src={logo} />
         </nav>
       </div>
-      
+
       <div id="mid-container">
         <ul id="item-list">
           <Item></Item>
@@ -19,7 +19,9 @@ const App = () => {
           <Item></Item>
           <Item></Item>
           <Item></Item>
-          <Item></Item>        
+          <Item></Item>
+          <Item></Item>
+          <Item></Item>
         </ul>
       </div>
     </div>
@@ -28,7 +30,7 @@ const App = () => {
 
 const Item = () => (
   <li class="item">
-    <img class="item-img" src="https://s3.ap-southeast-1.amazonaws.com/com.gomi.store/z5JZhmafTmCETzLi6VvSLojm?response-content-disposition=inline%3B%20filename%3D%22SUN-GEL%2001.jpg%22%3B%20filename%2A%3DUTF-8%27%27SUN-GEL%252001.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJRLWQTI4VUUIOC5Q%2F20190723%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20190723T074706Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=92a0ea22f0d0dcab75595235b399854db32f335743b5b30f0d7021197b07900d" />
+    <img class="item-img" src="https://s3.ap-southeast-1.amazonaws.com/com.gomi.store/z5JZhmafTmCETzLi6VvSLojm?response-content-disposition=inline%3B%20filename%3D%22SUN-GEL%2001.jpg%22%3B%20filename%2A%3DUTF-8%27%27SUN-GEL%252001.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJRLWQTI4VUUIOC5Q%2F20190723%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20190723T151743Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8b245ee50565e9ab9a9f3be68bc22a62b8b54c98bd974cfadebefb034c098ea1" />
     <div class="item-body">
       <h4>bookki</h4>
       <p>24K GOLD SIGNATURE SUN GEL</p>
